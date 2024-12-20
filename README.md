@@ -1,6 +1,16 @@
 
 # shell script that bootstraps a debian cluster
 
+
+sudo apt update && sudo apt upgrade -y
+sudo apt install git -y
+git --version
+git config --global user.name "Seu Nome"
+git config --global user.email "seu-email@exemplo.com"
+
+git clone Initiate-cloud 
+
+
 ./main.bash
 
 
